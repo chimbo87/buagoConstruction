@@ -8,9 +8,9 @@ function Footer() {
       <div class="row">
         <div class="col-lg-6 col-md-4">
           <div id="footerCard">
-            <h4>ABOUT</h4>
+            {/* <h4>ABOUT</h4> */}
          <div id="footerImgBox">
-         <img src={logo} />
+         {/* <img src={logo} /> */}
          <h5>BuagoPula Properties Pvt Ltd</h5>
          </div>
             <p>
