@@ -1,0 +1,52 @@
+#footerPage {
+  background-color: rgb(219, 217, 217);
+  padding-top: 40px;
+}
+#footerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+#footerCard h4 {
+  color: #2a6595;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+#footerImgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+#footerImgBox img {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 4px;
+}
+#footerImgBox h5 {
+  background: -webkit-linear-gradient(0deg, #2a6595, #f89e29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 10px;
+  border-bottom: 2px solid #f1975b;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#footerRightBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #f0eeeca9;
+  padding-top: 20px;
+}
+#footerRightBox small {
+  color: #2a6595;
+}

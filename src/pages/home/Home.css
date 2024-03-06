@@ -79,12 +79,13 @@
   justify-content: center;
 }
 #reviewCardInner h1 {
-  background: -webkit-linear-gradient(0deg, #2a6595, antiquewhite);
+  background: -webkit-linear-gradient(0deg, #2a6595, #f1975b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
   font-weight: 700;
   text-align: start;
+  font-family: "Montserrat", sans-serif;
 }
 #reviewCardInner p {
   color: antiquewhite;
@@ -215,74 +216,119 @@
   color: #d29968;
 }
 
-
-
-
-#homeContact{
-    margin-top: 30px;
+#homeContact {
+  margin-top: 30px;
 }
-#homeContact h4{
-    color: #2a6595;
-    font-weight: 700;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
+#homeContact h4 {
+  color: #2a6595;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 #homeContactCard {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a6595;
+  height: 100%;
+  border-radius: 5px;
+
+  padding: 15px 0px;
+}
+#homeContactCardInfor {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+#homeContactInput {
+  border: 1px solid #2a6595;
+}
+#homeContactCardIcon {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#homeContactCardIcon i {
+  color: antiquewhite;
+  font-size: 25px;
+  padding: 8px;
+  border: 1px solid antiquewhite;
+  border-radius: 50%;
+}
+#homeContactCardIText {
+  color: antiquewhite;
+}
+#homeContactSocialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  margin-top: 20px;
+  border-top: 1px solid #faebd73b;
+  padding-top: 50px;
+}
+#homeContactSocialLink i {
+  color: antiquewhite;
+  font-size: 25px;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+#homeContactSocialLink i:hover {
+  color: #d29968;
+  rotate: 20deg;
+}
+
+#homeContactBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#homeContactBtn button {
+  padding: 10px 35px;
+  border: none;
+  background-color: #2a6595;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+#homeContactBtn button:hover {
+  color: #faebd7;
+}
+
+@media (max-width: 750px) {
+  #homeMissionCardBox {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  #homeMissionCardBoxCard h4 {
+    font-weight: 700;
+    background: -webkit-linear-gradient(0deg, #2a6595, #f89e29);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 2.5rem;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+  }
+  #homeContactBtn button {
+    padding: 10px 35px;
+    border: none;
     background-color: #2a6595;
-    height: 100%;
-    border-radius: 5px;
-  
-    padding: 15px 0px;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
   }
-  #homeContactCardInfor {
-    width: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    padding-left: 15px;
-    margin-top: 10px;
-  }
-  #homeContactInput{
-    border: 1px solid #2a6595;
-  }
-  #homeContactCardIcon {
-    margin-right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #homeContactCardIcon i {
-    color: antiquewhite;
-    font-size: 25px;
-    padding: 8px;
-    border: 1px solid antiquewhite;
-    border-radius: 50%;
-  }
-  #homeContactCardIText {
-    color: antiquewhite;
-  }
-  #homeContactSocialLink {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* width: 100%; */
-    margin-top: 20px;
-    border-top: 1px solid #faebd73b;
-    padding-top: 50px;
-  }
-  #homeContactSocialLink i {
-    color: antiquewhite;
-    font-size: 25px;
-    margin: 0px 8px;
-    cursor: pointer;
-  }
-  #homeContactSocialLink i:hover {
-    color: #d29968;
-    rotate: 20deg;
-  }
+}

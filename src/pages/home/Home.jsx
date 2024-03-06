@@ -3,6 +3,7 @@ import "./Home.css";
 import homebanner from "../../assets/homebanner.jpeg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import Footer from "../../components/footer/Footer";
 
 function Home() {
   const handleDragStart = (e) => e.preventDefault();
@@ -117,19 +118,7 @@ function Home() {
 
               <button>READ MORE</button>
 
-              {/* <p>At BuagoPula, our mission goes
-              beyond just constructing buildings; we strive to create spaces
-              that inspire and transform communities. From sustainable design
-              practices to innovative construction techniques, we prioritize
-              environmental stewardship and social responsibility in all our
-              projects. We believe in fostering long-term relationships with our
-              clients, partners, and stakeholders, built on transparency,
-              collaboration, and mutual respect. Our commitment to excellence
-              extends beyond the completion of a project, as we continue to
-              support our clients throughout the lifecycle of their properties,
-              ensuring enduring value and lasting impact. At BuagoPula, we are
-              dedicated to shaping a brighter future, one building at a time.
-            </p> */}
+            
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
@@ -189,7 +178,7 @@ function Home() {
                   rows="3"
                 ></textarea>
               </div>
-              <div id="home">
+              <div id="homeContactBtn">
                 <button>send</button>
               </div>
             </div>
@@ -245,6 +234,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

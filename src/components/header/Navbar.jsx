@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.jpg";
+import { useNavigate, Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
-    const [isActive, setIsActive] = useState(false);
+  const navigate = useNavigate();
+  const [isActive, setIsActive] = useState(false);
 
-    const handleClick = () => {
-      setIsActive(!isActive);
-    };
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -29,28 +31,78 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" id="navLink">
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="navLink"
+              >
                 HOME
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" id="navLink">
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/about");
+              }}
+            >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="navLink"
+              >
                 ABOUT
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" id="navLink">
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/services");
+              }}
+            >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="navLink"
+              >
                 SERVICES
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" id="navLink">
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/projects");
+              }}
+            >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="navLink"
+              >
                 PROJECTS
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" id="navLink">
+            <li
+              class="nav-item"
+              onClick={() => {
+                navigate("/contact");
+              }}
+            >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="navLink"
+              >
                 CONTACT
               </a>
             </li>
