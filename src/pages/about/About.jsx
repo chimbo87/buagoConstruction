@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import logo from "../../assets/logo.jpg";
 import aboutbanner from "../../assets/abtstrory.jpg";
+import blogbanner from "../../assets/blogpic1.jpg";
 import Footer from "../../components/footer/Footer";
 
 function About() {
@@ -73,147 +74,224 @@ function About() {
             </div>
           </div>
         </div>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <h4>Why Choose Us</h4>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
-              >
-                Accordion Item #1
-              </button>
-            </h2>
-            <div
-              id="flush-collapseOne"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
+        <div class="row" id="aboutOfferWrap">
+          <div class="col-lg-6 col-md-4">
+            <div id="aboutOfferWrapCard">
+              <div id="aboutOfferWrapBox">
+                <h1>10+</h1>
+                <p>Years Experience</p>
               </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo"
-                aria-expanded="false"
-                aria-controls="flush-collapseTwo"
-              >
-                Accordion Item #2
-              </button>
-            </h2>
-            <div
-              id="flush-collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                second item's accordion body. Let's imagine this being filled
-                with some actual content.
-              </div>
-            </div>
-          </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="flush-collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+              <div id="aboutOfferWrapBox">
+                <h1>1000+</h1>
+                <p>Completed Projects</p>
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="flush-collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+          <div class="col-lg-6 col-md-4">
+            <div id="aboutOfferWrapCard">
+              <div id="aboutOfferWrapBox">
+                <h1>500+</h1>
+                <p>Affiliated Clients</p>
               </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="flush-collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+
+              <div id="aboutOfferWrapBox">
+                <h1>10+</h1>
+                <p>Years Experience</p>
               </div>
             </div>
           </div>
         </div>
+
+        <div id="accordionPage">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <h4>Why Choose Us</h4>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Industry Leaders in Construction Excellence
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  With decades of combined experience and a proven track record
+                  of successful projects, we bring unparalleled expertise to
+                  every construction endeavor. Our seasoned team of
+                  professionals is committed to delivering superior quality,
+                  precision, and innovation in every aspect of our work.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Your Vision, Our Priority
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  At BuagoPula, client satisfaction is at the heart of
+                  everything we do. We listen closely to your needs, collaborate
+                  transparently, and customize our solutions to exceed your
+                  expectations. Your vision is our priority, and we are
+                  dedicated to bringing it to life with integrity,
+                  professionalism, and unwavering dedication.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Uncompromising Commitment to Excellence
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Our commitment to quality is unwavering. From meticulous
+                  planning to rigorous quality control measures, we ensure that
+                  every project is executed to the highest standards of
+                  craftsmanship and precision. With BuagoPula, you can trust
+                  that your project will be built with uncompromising quality
+                  and attention to detail.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  Pioneering Construction Innovation
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Embracing the latest advancements in technology and
+                  construction practices, we strive to push the boundaries of
+                  innovation in every project we undertake. From sustainable
+                  building techniques to cutting-edge design concepts, we are
+                  committed to delivering forward-thinking solutions that set
+                  new benchmarks in the industry.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  Your Trusted Partner from Concept to Completion
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  At BuagoPula, we believe in building lasting relationships
+                  with our clients. Our dedicated team provides comprehensive
+                  support throughout every stage of the construction process,
+                  from initial concept development to project completion and
+                  beyond. With BuagoPula by your side, you can trust that you
+                  have a reliable partner committed to your success.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="blogPage">
+          <h4>Our Blog</h4>
+          <div class="col-lg-4 col-md-4">
+            <div id="blogCard">
+              <img src={blogbanner} alt="" />
+              <h5> Lorem Ipsum is simply dummy </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="blogCard">
+              <img src={blogbanner} alt="" />
+              <h5> Lorem Ipsum is simply dummy </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="blogCard">
+              <img src={blogbanner} alt="" />
+              <h5> Lorem Ipsum is simply dummy </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
