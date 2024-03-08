@@ -256,46 +256,57 @@ function About() {
           <div class="col-lg-4 col-md-4">
             <div id="blogCard">
               <img src={blogbanner} alt="" />
-              <h5> Lorem Ipsum is simply dummy </h5>
+              <h5>The Importance of Sustainable Construction Practices </h5>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it
+                In recent years, sustainable construction practices have gained
+                significant traction in the construction industry, including at
+                BuagoPula Construction.
               </p>
-              <button    onClick={() => {
-                navigate("/blog01");
-              }}>READ MORE</button>
+              <button
+                onClick={() => {
+                  navigate("/blog01");
+                }}
+              >
+                READ MORE
+              </button>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="blogCard">
               <img src={blogpic02} alt="" />
-              <h5> Lorem Ipsum is simply dummy </h5>
+              <h5> Innovations in Modern Construction Technology</h5>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it
+                In the dynamic landscape of the construction industry, BuagoPula
+                Construction recognizes the importance of embracing innovation
+                and leveraging modern construction technology..
               </p>
-              <button   onClick={() => {
-                navigate("/blog02");
-              }}>READ MORE</button>
+              <button
+                onClick={() => {
+                  navigate("/blog02");
+                }}
+              >
+                READ MORE
+              </button>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="blogCard">
               <img src={blogbanner} alt="" />
-              <h5> Lorem Ipsum is simply dummy </h5>
+              <h5>
+                {" "}
+                Sustainable Construction Practices, Building a Greener Future{" "}
+              </h5>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it
+                At BuagoPula Construction, we are committed to advancing
+                sustainable construction practices that minimize ..
               </p>
-              <button   onClick={() => {
-                navigate("/blog03");
-              }}>READ MORE</button>
+              <button
+                onClick={() => {
+                  navigate("/blog03");
+                }}
+              >
+                READ MORE
+              </button>
             </div>
           </div>
         </div>
