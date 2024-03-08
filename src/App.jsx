@@ -11,6 +11,9 @@ import About from "./pages/about/About";
 import Services from "./pages/services/Services";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
+import Blog01 from "./pages/blogs/Blog01";
+import Blog02 from "./pages/blogs/Blog02";
+import Blog03 from "./pages/blogs/Blog03";
 
 function App() {
   const router = createBrowserRouter(
@@ -21,6 +24,9 @@ function App() {
         <Route path="/services" element={<Services/>}></Route>
         <Route path="/projects" element={<Projects/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="/blog01" element={<Blog01/>}></Route>
+        <Route path="/blog02" element={<Blog02/>}></Route>
+        <Route path="/blog03" element={<Blog03/>}></Route>
       </Route>
     )
   );

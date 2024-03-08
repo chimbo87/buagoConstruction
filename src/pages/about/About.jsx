@@ -1,11 +1,14 @@
 import React from "react";
 import "./About.css";
 import logo from "../../assets/logo.jpg";
+import { useNavigate, Link } from "react-router-dom";
 import aboutbanner from "../../assets/abtstrory.jpg";
 import blogbanner from "../../assets/blogpic1.jpg";
+import blogpic02 from "../../assets/construction.jpg";
 import Footer from "../../components/footer/Footer";
 
 function About() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="container-fluid" id="aboutPage">
@@ -260,7 +263,24 @@ function About() {
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it
               </p>
-              <button>READ MORE</button>
+              <button    onClick={() => {
+                navigate("/blog01");
+              }}>READ MORE</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="blogCard">
+              <img src={blogpic02} alt="" />
+              <h5> Lorem Ipsum is simply dummy </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it
+              </p>
+              <button   onClick={() => {
+                navigate("/blog02");
+              }}>READ MORE</button>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
@@ -273,20 +293,9 @@ function About() {
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it
               </p>
-              <button>READ MORE</button>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="blogCard">
-              <img src={blogbanner} alt="" />
-              <h5> Lorem Ipsum is simply dummy </h5>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it
-              </p>
-              <button>READ MORE</button>
+              <button   onClick={() => {
+                navigate("/blog03");
+              }}>READ MORE</button>
             </div>
           </div>
         </div>
