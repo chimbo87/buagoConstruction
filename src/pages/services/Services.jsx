@@ -9,7 +9,7 @@ function Services() {
   const items = [
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/girl"/>
+        <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -23,7 +23,7 @@ function Services() {
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public"/>
+        <img src="https://avatar.iran.liara.run/public" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -37,7 +37,7 @@ function Services() {
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/boy"/>
+        <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -51,7 +51,7 @@ function Services() {
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/boy"/>
+        <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -65,7 +65,7 @@ function Services() {
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/girl"/>
+        <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -79,7 +79,7 @@ function Services() {
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/girl"/>
+        <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -93,7 +93,7 @@ function Services() {
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/girl"/>
+        <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -107,7 +107,7 @@ function Services() {
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/girl"/>
+        <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -121,7 +121,7 @@ function Services() {
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/girl"/>
+        <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -136,7 +136,7 @@ function Services() {
 
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src="https://avatar.iran.liara.run/public/boy"/>
+        <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -308,6 +308,7 @@ function Services() {
             responsive={responsive}
           />
         </div>
+    
       </div>
       <Footer />
     </>
