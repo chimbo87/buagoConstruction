@@ -1,33 +1,109 @@
-import React from 'react'
+import React, { useState } from "react";
+import "./Projects.css";
+import blogpic02 from "../../assets/construction.jpg";
 
 function Projects() {
+  const [activeButton, setActiveButton] = useState(null);
+  const handleButtonClick = (buttonId) => {
+    setActiveButton(buttonId);
+  };
   return (
-    <div>
-    <h4>projects PAGE</h4>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release
-      of Letraset sheets containing Lorem Ipsum passages, and more recently
-      with desktop publishing software like Aldus PageMaker including versions
-      of Lorem Ipsum
-    </p>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release
-      of Letraset sheets containing Lorem Ipsum passages, and more recently
-      with desktop publishing software like Aldus PageMaker including versions
-      of Lorem Ipsum
-    </p>
-  </div>
-  )
+    <>
+      <div className="container-fluid" id="projectPage">
+        <h1>Our Works</h1>
+      </div>
+
+      <div className="container" id="ourWorkBtnsBox">
+        <div id="ourWorkBtns">
+          <div>
+            <button
+              className={activeButton === 1 ? "active" : ""}
+              onClick={() => handleButtonClick(1)}
+            >
+              All
+            </button>
+          </div>
+          <div>
+            <button
+              className={activeButton === 2 ? "active" : ""}
+              onClick={() => handleButtonClick(2)}
+            >
+              Roofing
+            </button>
+          </div>
+
+          <div>
+            <button
+              className={activeButton === 3 ? "active" : ""}
+              onClick={() => handleButtonClick(3)}
+            >
+              Flooring
+            </button>
+          </div>
+
+          <div>
+            <button
+              className={activeButton === 4 ? "active" : ""}
+              onClick={() => handleButtonClick(4)}
+            >
+              Durawalls
+            </button>
+          </div>
+
+          <div>
+            <button
+              className={activeButton === 5 ? "active" : ""}
+              onClick={() => handleButtonClick(5)}
+            >
+              Pavings
+            </button>
+          </div>
+
+          <div>
+            <button
+              className={activeButton === 6 ? "active" : ""}
+              onClick={() => handleButtonClick(6)}
+            >
+              Buildings
+            </button>
+          </div>
+
+          <div>
+            <button
+              className={activeButton === 7 ? "active" : ""}
+              onClick={() => handleButtonClick(7)}
+            >
+              Painting
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="container" id="projectPageBox">
+        <div class="row">
+          <div class="col-lg-6 col-md-4">
+            <div id="projectCard">
+              <div id="projectCardImg">
+                <img src={blogpic02} />
+              </div>
+              <div id="projectCardImg">
+                <img src={blogpic02} />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4">
+            <div id="projectCard">
+              <div id="projectCardImg">
+                <img src={blogpic02} />
+              </div>
+              <div id="projectCardImg">
+                <img src={blogpic02} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Projects
+export default Projects;
