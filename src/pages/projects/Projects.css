@@ -39,7 +39,7 @@
   color: antiquewhite;
 }
 #ourWorkBtns {
-    margin-top: 15px;
+  margin-top: 15px;
   display: flex;
   align-items: start;
   justify-content: start;
@@ -63,54 +63,66 @@
 #ourWorkBtns div {
   margin-right: 10px;
 }
-#projectCard{
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   margin-top: 15px;
-   
+
+#projectPageBox{
+    margin-bottom: 20px;
 }
-#projectCardImg{
-    width: 100%;
-    height: 200px;
-    border: 1px solid red;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#projectCard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
 }
-#projectCardImg img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#projectCardImg {
+  width: 100%;
+  height: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
+#projectCardImgB {
+  width: 100%;
+  height: 300px;
+  margin-right: 15px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#projectCardImgB Image {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#projectCardImg Image {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#projectPicCard {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 300px) {
-    #ourWorkBtns {
-        display: flex;
-        align-items: start;
-        justify-content: start;
-        overflow-x: auto;
-        white-space: nowrap;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        background-color: gainsboro;
-      
-        padding: 10px 10px;
-      }
+  #ourWorkBtns {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color: gainsboro;
+
+    padding: 10px 10px;
+  }
   #ourWorkBtns {
     overflow-x: hidden;
     flex-wrap: wrap;
@@ -122,24 +134,22 @@
   }
 }
 
-
 @media (max-width: 750px) {
-    #projectPage {
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0.817),
-            #1212126a,
-            rgba(0, 0, 0, 0.817)
-          ),
-          url("../../assets/about.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      
+  #projectPage {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.817),
+        #1212126a,
+        rgba(0, 0, 0, 0.817)
+      ),
+      url("../../assets/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+}
