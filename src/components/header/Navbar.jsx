@@ -108,12 +108,8 @@ function Navbar() {
             </li>
           </ul>
           <div id="navBtn">
-            {/* <div id="navIcons">
-            <i class='bx bxl-facebook'></i>
-            <i class='bx bxl-instagram'></i>
-            <i class='bx bxl-whatsapp'></i>
-            </div> */}
-            <button>GET A QUOTE</button>
+       
+            <button>LET'S CHAT</button>
           </div>
         </div>
       </div>

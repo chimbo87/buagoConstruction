@@ -4,8 +4,10 @@ import homebanner from "../../assets/homebanner.jpeg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   const handleDragStart = (e) => e.preventDefault();
   const items = [
     <div id="reviewCard">
@@ -116,9 +118,13 @@ function Home() {
                 partnering with you to bring your construction vision to life.{" "}
               </p>
 
-              <button>READ MORE</button>
-
-            
+              <button
+                onClick={() => {
+                  navigate("/about");
+                }}
+              >
+                READ MORE
+              </button>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
@@ -140,15 +146,13 @@ function Home() {
               <p>W.Mushambi</p>
             </div>
             <div id="homeMissionCardBoxButton">
-              <button>START A PROJECT WITH US</button>
+              <button data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+               GET A FREE QUOTATION
+              </button>
             </div>
           </div>
         </div>
 
-
-
-
-        
         <div>
           <div class="row" id="homeContact">
             <div class="col-lg-8 col-md-4">
@@ -238,8 +242,73 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <div
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div id="modalHeader">
+                <div id="modalTitle">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                    Get A Free Quotation Now
+                  </h1>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                  id="closeBtn"
+                ></button>
+              </div>
+              <div class="modal-body" id="modalBody">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">
+                    Email address
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="modalInput"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">
+                    Phone Number
+                  </label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="modalInput"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">
+                    Message
+                  </label>
+                  <textarea
+                    class="form-control"
+                    id="modalInput"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div id="quoteModalBtn">
+                  <button>send</button>
+                </div>
+              </div>
+         
+            </div>
+          </div>
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

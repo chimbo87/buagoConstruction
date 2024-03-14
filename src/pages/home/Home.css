@@ -305,6 +305,52 @@
   color: #faebd7;
 }
 
+#modalTitle{
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#modalTitle h1{
+  padding-top: 20px;
+  color: #2a6595;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+#modalBody{
+  padding: 8px 35px;
+}
+#closeBtn{
+  background-color: #80808091;
+  border-radius: 50%;
+}
+#modalInput{
+  border: 1px solid #2a6595;
+}
+#quoteModalBtn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#modalHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 5px;
+}
+#quoteModalBtn button{
+  padding: 10px 45px;
+  border: none;
+  background-color: #2a6595;
+  color: #faebd7;
+  border-radius: 4px;
+}
+#quoteModalBtn button:hover{
+  color: #d29968;
+}
 @media (max-width: 750px) {
 
   #reviewCard {
@@ -428,5 +474,8 @@
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 20px;
+  }
+  #modalBody{
+    padding: 5px;
   }
 }
