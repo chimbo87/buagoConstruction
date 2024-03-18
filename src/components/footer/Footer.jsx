@@ -9,44 +9,46 @@ function Footer() {
         <div class="col-lg-6 col-md-4">
           <div id="footerCard">
             {/* <h4>ABOUT</h4> */}
-         <div id="footerImgBox">
-         {/* <img src={logo} /> */}
-         <h5>BuagoPula Properties Pvt Ltd</h5>
-         </div>
+            <div id="footerImgBox">
+              {/* <img src={logo} /> */}
+              <h5>BuagoPula Properties Pvt Ltd</h5>
+            </div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentiall
+              At BuagoPula, our mission goes beyond just constructing buildings;
+              we strive to create spaces that inspire and transform communities.
+              From sustainable design practices to innovative construction
+              techniques, we prioritize environmental stewardship and social
+              responsibility in all our projects. We believe in fostering
+              long-term relationships with our clients, partners, and
+              stakeholders, built on transparency, collaboration, and mutual
+              respect. Our commitment to excellence extends beyond the
+              completion of a project, as we continue to support our clients
+              throughout the lifecycle of their properties, ensuring enduring
+              value and lasting impact. At BuagoPula, we are dedicated to
+              shaping a brighter future, one building at a time
             </p>
           </div>
         </div>
         <div class="col-lg-3 col-md-4">
           <div id="footerCard">
             <h4>QUICK LINKS</h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentiall
-            </p>
+            <ul  id="footerCardList">
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contacts</li>
+              <li>Privacy</li>
+            </ul>
           </div>
         </div>
         <div class="col-lg-3 col-md-4">
           <div id="footerCard">
             <h4>SOCIALS LINKS</h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentiall
-            </p>
+            <div id="footerIconsLinks">
+              <button> <i class="bx bxl-facebook"></i> Facebook</button>
+              <button><i class="bx bxl-instagram"></i> Instagram</button>
+              <button>  <i class="bx bxl-whatsapp"></i>  Whatsapp</button>
+            </div>
           </div>
         </div>
       </div>
