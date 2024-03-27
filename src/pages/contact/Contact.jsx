@@ -1,13 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import Footer from "../../components/footer/Footer";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    if (name === "email") setEmail(value);
+    else if (name === "phone") setPhone(value);
+    else if (name === "message") setMessage(value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!email || !phone || !message) {
+      toast.error("Please fill  out all fields", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: false,
+      });
+    } else {
+      // You can send the form data here
+      toast.success("Message send !", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: false,
+      });
+      // Reset form inputs
+      setEmail("");
+      setPhone("");
+      setMessage("");
+    }
+  };
   return (
     <>
       <div className="container-fluid" id="contactPage">
         <h1>Contact Us</h1>
       </div>
+
       <div className="container" id="contactPageBox">
         <div class="row">
           <div class="col-lg-8 col-md-4">
@@ -51,7 +92,7 @@ function Contact() {
               </ul>
             </div>
             <div class="col-lg-4 col-md-4">
-            <ul id="hireCard">
+              <ul id="hireCard">
                 <li>Brick Layers</li>
                 <li>Painters</li>
                 <li>Capenters</li>
@@ -59,7 +100,7 @@ function Contact() {
               </ul>
             </div>
             <div class="col-lg-4 col-md-4">
-            <ul id="hireCard">
+              <ul id="hireCard">
                 <li>Brick Layers</li>
                 <li>Painters</li>
                 <li>Capenters</li>
@@ -70,32 +111,61 @@ function Contact() {
         </div>
         <div class="row" id="homeContact">
           <div class="col-lg-8 col-md-4">
-            <h4>Get InTouch With Us</h4>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">
-                Email address
-              </label>
-              <input type="email" class="form-control" id="homeContactInput" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">
-                Phone Number
-              </label>
-              <input type="number" class="form-control" id="homeContactInput" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">
-                Message
-              </label>
-              <textarea
-                class="form-control"
-                id="homeContactInput"
-                rows="3"
-              ></textarea>
-            </div>
-            <div id="homeContactBtn">
-              <button>send</button>
-            </div>
+            <form onSubmit={handleSubmit}>
+              <h4>Get In Touch With Us</h4>
+              <div className="mb-3">
+                <label htmlFor="email" className="form-label">
+                  Email address
+                </label>
+                <input
+                  type="email"
+                  className="form-control"
+                  id="email"
+                  name="email"
+                  value={email}
+                  onChange={handleInputChange}
+                />
+              </div>
+              <div className="mb-3">
+                <label htmlFor="phone" className="form-label">
+                  Phone Number
+                </label>
+                <input
+                  type="number"
+                  className="form-control"
+                  id="phone"
+                  name="phone"
+                  value={phone}
+                  onChange={handleInputChange}
+                />
+              </div>
+              <div className="mb-3">
+                <label htmlFor="message" className="form-label">
+                  Message
+                </label>
+                <textarea
+                  className="form-control"
+                  id="message"
+                  name="message"
+                  rows="3"
+                  value={message}
+                  onChange={handleInputChange}
+                ></textarea>
+              </div>
+              <div id="homeContactBtn">
+                <button type="submit">Send</button>
+              </div>
+              {toast && (
+                <div
+                  className="toast"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div className="toast-body">{toast}</div>
+                </div>
+              )}
+            </form>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="homeContactCard">
@@ -148,7 +218,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

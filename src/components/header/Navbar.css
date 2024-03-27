@@ -57,7 +57,14 @@
     font-size: 16px;
     font-weight: 700;
 }
-#navBtn button:hover{
+#navBtn button a{
+  color: #f1975b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+#navBtn button a:hover{
     color: #faebd7;
 }
 

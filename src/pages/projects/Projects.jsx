@@ -1,8 +1,18 @@
 import React, { useState } from "react";
 import "./Projects.css";
 import blogpic02 from "../../assets/construction.jpg";
-import project1 from "../../assets/homebanner.jpeg";
-import project2 from "../../assets/about.jpg";
+import project1 from "../../assets/work1.jpeg";
+import project2 from "../../assets/work2.jpeg";
+import project3 from "../../assets/work3.jpeg";
+import project4 from "../../assets/work4.jpeg";
+import project5 from "../../assets/work5.jpeg";
+import project6 from "../../assets/work6.jpeg";
+import project7 from "../../assets/work7.jpeg";
+import project8 from "../../assets/work8.jpeg";
+import project9 from "../../assets/work9.jpeg";
+import project10 from "../../assets/work10.jpeg";
+import project11 from "../../assets/work11.jpeg";
+import project12 from "../../assets/work12.jpeg";
 import { Image } from "antd";
 import Footer from "../../components/footer/Footer";
 
@@ -110,7 +120,7 @@ function Projects() {
               </div>
               <div id="projectCardImg">
                 <Image
-                  src={blogpic02}
+                  src={project3}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
@@ -120,19 +130,13 @@ function Projects() {
 
         <div class="row">
           <div class="col-lg-6 col-md-4">
-          <div id="projectPicCard">
-            <Image
-                  src={project1}
-                
-                />
+            <div id="projectPicCard">
+              <Image src={project1} id="mainImg"/>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
             <div id="projectPicCard">
-            <Image
-                  src={blogpic02}
-                 
-                />
+              <Image src={project6} id="mainImg"/>
             </div>
           </div>
         </div>
@@ -142,13 +146,13 @@ function Projects() {
             <div id="projectCard">
               <div id="projectCardImgB">
                 <Image
-                  src={blogpic02}
+                  src={project6}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
               <div id="projectCardImg">
                 <Image
-                  src={project1}
+                  src={project7}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
@@ -158,13 +162,13 @@ function Projects() {
             <div id="projectCard">
               <div id="projectCardImgB">
                 <Image
-                  src={project2}
+                  src={project8}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
               <div id="projectCardImg">
                 <Image
-                  src={blogpic02}
+                  src={project9}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
@@ -174,36 +178,29 @@ function Projects() {
 
         <div class="row">
           <div class="col-lg-6 col-md-4">
-          <div id="projectPicCard">
-            <Image
-                  src={project1}
-                
-                />
+            <div id="projectPicCard">
+              <Image src={project10} id="mainImg" />
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
             <div id="projectPicCard">
-            <Image
-                  src={blogpic02}
-                 
-                />
+              <Image src={project11} id="mainImg" />
             </div>
           </div>
         </div>
-
 
         <div class="row">
           <div class="col-lg-6 col-md-4">
             <div id="projectCard">
               <div id="projectCardImgB">
                 <Image
-                  src={blogpic02}
+                  src={project12}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
               <div id="projectCardImg">
                 <Image
-                  src={project1}
+                  src={project8}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
@@ -213,13 +210,13 @@ function Projects() {
             <div id="projectCard">
               <div id="projectCardImgB">
                 <Image
-                  src={project2}
+                  src={project10}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
               <div id="projectCardImg">
                 <Image
-                  src={blogpic02}
+                  src={project4}
                   style={{ borderRadius: 4, height: 150 }}
                 />
               </div>
@@ -227,7 +224,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

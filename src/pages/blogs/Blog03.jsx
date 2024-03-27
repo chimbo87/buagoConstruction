@@ -11,7 +11,7 @@ function Blog03() {
         <div id="blogAuther">
           <h5>W Mushambi</h5>
           <p>
-            <i>12 0ctober 2010</i>
+            <i>10 August 2023</i>
           </p>
         </div>
         <h4>Sustainable Construction Practices, Building a Greener Future</h4>
@@ -93,15 +93,28 @@ function Blog03() {
         <div id="blogSocialLinks">
           <h5>Follow Us</h5>{" "}
           <button>
-            {" "}
-            <i class="bx bxl-facebook"></i> Facebook
+            <a
+              href="https://www.facebook.com/buagopulaproperties?mibextid=LQQJ4d"
+              target="_blank"
+            >
+              <i class="bx bxl-facebook"></i>Facebook
+            </a>
           </button>
           <button>
-            <i class="bx bxl-instagram"></i> Instagram
+            <a
+              href="https://www.instagram.com/buago_pula_properties?igsh=Y3h2b2ZkenM1dmhy&utm_source=qr"
+              target="_blank"
+            >
+              <i class="bx bxl-instagram"></i> Instagram
+            </a>
           </button>
           <button>
-            {" "}
-            <i class="bx bxl-whatsapp"></i> Whatsapp
+            <a
+              href="https://api.whatsapp.com/send?phone=263773927966"
+              target="_blank"
+            >
+              <i class="bx bxl-whatsapp"></i> Whatsapp
+            </a>
           </button>
         </div>
         <div id="blogBackArrow">

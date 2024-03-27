@@ -85,6 +85,10 @@
   width: 150px;
   margin-top: 5px;
 }
-#footerIconsLinks button:hover{
+#footerIconsLinks button a{
+  color: antiquewhite;
+ text-decoration: none;
+}
+#footerIconsLinks button a:hover{
   color: #f89e29;
 }

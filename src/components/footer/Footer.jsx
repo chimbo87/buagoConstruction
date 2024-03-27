@@ -1,8 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../../assets/logo.jpg";
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
+  const navigate = useNavigate();
   return (
     <div className="container-fluid" id="footerPage">
       <div class="row">
@@ -32,11 +34,35 @@ function Footer() {
         <div class="col-lg-3 col-md-4">
           <div id="footerCard">
             <h4>QUICK LINKS</h4>
-            <ul  id="footerCardList">
-              <li>Home</li>
-              <li>About</li>
-              <li>Services</li>
-              <li>Contacts</li>
+            <ul id="footerCardList">
+              <li
+                onClick={() => {
+                  navigate("/");
+                }}
+              >
+                Home
+              </li>
+              <li
+                onClick={() => {
+                  navigate("/about");
+                }}
+              >
+                About
+              </li>
+              <li
+                onClick={() => {
+                  navigate("/services");
+                }}
+              >
+                Services
+              </li>
+              <li
+                onClick={() => {
+                  navigate("/contact");
+                }}
+              >
+                Contacts
+              </li>
               <li>Privacy</li>
             </ul>
           </div>
@@ -45,9 +71,30 @@ function Footer() {
           <div id="footerCard">
             <h4>SOCIALS LINKS</h4>
             <div id="footerIconsLinks">
-              <button> <i class="bx bxl-facebook"></i> Facebook</button>
-              <button><i class="bx bxl-instagram"></i> Instagram</button>
-              <button>  <i class="bx bxl-whatsapp"></i>  Whatsapp</button>
+              <button>
+                <a
+                  href="https://www.facebook.com/buagopulaproperties?mibextid=LQQJ4d"
+                  target="_blank"
+                >
+                  <i class="bx bxl-facebook"></i>Facebook
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://www.instagram.com/buago_pula_properties?igsh=Y3h2b2ZkenM1dmhy&utm_source=qr"
+                  target="_blank"
+                >
+                  <i class="bx bxl-instagram"></i> Instagram
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=263773927966"
+                  target="_blank"
+                >
+                  <i class="bx bxl-whatsapp"></i> Whatsapp
+                </a>
+              </button>
             </div>
           </div>
         </div>
@@ -55,7 +102,10 @@ function Footer() {
       <div id="footerRightBox" className="container">
         <small>
           {" "}
-          &copy; BuagoPula Properties 2024. Developed by <a href="#">CHIMBO</a>
+          &copy; BuagoPula Properties 2024. Developed by{" "}
+          <a href="https://wa.me/27677366141" target="_blank">
+            CHIMBO
+          </a>
         </small>
       </div>
     </div>

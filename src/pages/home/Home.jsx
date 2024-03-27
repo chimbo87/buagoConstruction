@@ -1,12 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import homebanner from "../../assets/homebanner.jpeg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Home() {
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    if (name === "email") setEmail(value);
+    else if (name === "phone") setPhone(value);
+    else if (name === "message") setMessage(value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!email || !phone || !message) {
+      toast.error("Please fill  out all fields", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: false,
+      })
+    } else {
+      // You can send the form data here
+      toast.success("Message send !", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: false,
+      });
+      // Reset form inputs
+      setEmail("");
+      setPhone("");
+      setMessage("");
+    }
+  };
   const navigate = useNavigate();
   const handleDragStart = (e) => e.preventDefault();
   const items = [
@@ -147,7 +188,7 @@ function Home() {
             </div>
             <div id="homeMissionCardBoxButton">
               <button data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-               GET A FREE QUOTATION
+                GET A FREE QUOTATION
               </button>
             </div>
           </div>
@@ -156,40 +197,61 @@ function Home() {
         <div>
           <div class="row" id="homeContact">
             <div class="col-lg-8 col-md-4">
-              <h4>Get InTouch With Us</h4>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="homeContactInput"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
-                  Phone Number
-                </label>
-                <input
-                  type="number"
-                  class="form-control"
-                  id="homeContactInput"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">
-                  Message
-                </label>
-                <textarea
-                  class="form-control"
-                  id="homeContactInput"
-                  rows="3"
-                ></textarea>
-              </div>
-              <div id="homeContactBtn">
-                <button>send</button>
-              </div>
+              <form onSubmit={handleSubmit}>
+                <h4>Get In Touch With Us</h4>
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label">
+                    Email address
+                  </label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    name="email"
+                    value={email}
+                    onChange={handleInputChange}
+                  />
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="phone" className="form-label">
+                    Phone Number
+                  </label>
+                  <input
+                    type="number"
+                    className="form-control"
+                    id="phone"
+                    name="phone"
+                    value={phone}
+                    onChange={handleInputChange}
+                  />
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="message" className="form-label">
+                    Message
+                  </label>
+                  <textarea
+                    className="form-control"
+                    id="message"
+                    name="message"
+                    rows="3"
+                    value={message}
+                    onChange={handleInputChange}
+                  ></textarea>
+                </div>
+                <div id="homeContactBtn">
+                  <button type="submit">Send</button>
+                </div>
+                {toast && (
+                  <div
+                    className="toast"
+                    role="alert"
+                    aria-live="assertive"
+                    aria-atomic="true"
+                  >
+                    <div className="toast-body">{toast}</div>
+                  </div>
+                )}
+              </form>
             </div>
             <div class="col-lg-4 col-md-4">
               <div id="homeContactCard">
@@ -273,21 +335,13 @@ function Home() {
                   <label for="exampleFormControlInput1" class="form-label">
                     Email address
                   </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="modalInput"
-                  />
+                  <input type="email" class="form-control" id="modalInput" />
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label">
                     Phone Number
                   </label>
-                  <input
-                    type="number"
-                    class="form-control"
-                    id="modalInput"
-                  />
+                  <input type="number" class="form-control" id="modalInput" />
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">
@@ -303,7 +357,6 @@ function Home() {
                   <button>send</button>
                 </div>
               </div>
-         
             </div>
           </div>
         </div>

@@ -12,13 +12,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Impressed with the professionalism and efficiency of BuagoPula
+          Properties. Our project was completed on time and exceeded our
+          expectations. <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Archford C, Zimbabwe ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Tinashe M, Zimbabwe</small>
       </div>
     </div>,
     <div id="partnerCard">
@@ -26,13 +24,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Highly recommend BuagoPula Properties! They delivered exceptional
+          quality and attention to detail throughout our construction project{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          John Doe, USA C ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Mwale J, Zambia</small>
       </div>
     </div>,
     <div id="partnerCard">
@@ -40,13 +36,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          BuagoPula Properties turned our vision into reality! Excellent
+          communication and top-notch craftsmanship{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Trish G, Brazil ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Peter P, Zambia</small>
       </div>
     </div>,
     <div id="partnerCard">
@@ -54,13 +48,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Outstanding service from start to finish. BuagoPula Properties went
+          above and beyond to ensure our satisfaction. 5 stars{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Travor S ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Travor V. Botswana</small>
       </div>
     </div>,
     <div id="partnerCard">
@@ -68,13 +60,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Extremely satisfied with the results. BuagoPula Properties delivered
+          on their promises and provided excellent value for money.{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Lylod P, S Africa C ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Lylod P, Zimbabwe</small>
       </div>
     </div>,
     <div id="partnerCard">
@@ -82,13 +72,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Efficient, reliable, and professional. BuagoPula Properties made our
+          construction experience stress-free and enjoyable.
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Tatenda B, Mozambique C ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Tatenda B, Zimbabwe</small>
       </div>
     </div>,
     <div id="partnerCard">
@@ -96,13 +84,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Couldn't be happier with the outcome. BuagoPula Properties delivered a
+          beautifully crafted space that exceeded our expectations.{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Archford C ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Banda M, Zambia</small>
       </div>
     </div>,
     <div id="partnerCard">
@@ -110,13 +96,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Impressed by the level of expertise and attention to detail. BuagoPula
+          Properties truly cares about their clients' satisfaction.{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Archford C ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Pitso M, Botswana</small>
       </div>
     </div>,
     <div id="partnerCard">
@@ -124,13 +108,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/girl" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          BuagoPula Properties is the go-to construction company! They provided
+          exceptional service and exceeded all our expectations.{" "}
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Archford C ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Motshleyo H, Zambia</small>
       </div>
     </div>,
 
@@ -139,13 +121,11 @@ function Services() {
         <img src="https://avatar.iran.liara.run/public/boy" />
         <i class="bx bxs-quote-left"></i>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, <i class="bx bxs-quote-right"></i>
+          Thrilled with the final result! BuagoPula Properties transformed our
+          space into something truly remarkable. Highly recommend
+          <i class="bx bxs-quote-right"></i>
         </p>
-        <small>
-          Archford C ~ <i>20 Oct 2020</i>
-        </small>
+        <small>Talent M, Zimbabwe</small>
       </div>
     </div>,
   ];
@@ -308,7 +288,6 @@ function Services() {
             responsive={responsive}
           />
         </div>
-    
       </div>
       <Footer />
     </>

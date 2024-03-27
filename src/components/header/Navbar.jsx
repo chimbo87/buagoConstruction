@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.jpg";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -108,8 +108,12 @@ function Navbar() {
             </li>
           </ul>
           <div id="navBtn">
-       
-            <button>LET'S CHAT</button>
+            <button >
+            <a href="https://wa.me/263773927966" target="_blank">
+            LET'S CHAT
+          </a>
+            
+            </button>
           </div>
         </div>
       </div>
