@@ -4,6 +4,11 @@
 .navbar{
     background-color: white;
     box-shadow: 2px 2px 12px #bab9b94f;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
 }
 #logoBox{
     width: 130px;

@@ -10,6 +10,7 @@ function Navbar() {
   const handleClick = () => {
     setIsActive(!isActive);
   };
+  
   return (
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">

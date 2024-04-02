@@ -1,6 +1,6 @@
 #reviewCard {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@
 }
 #reviewCard01 {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +36,7 @@
 }
 #reviewCard02 {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +54,7 @@
 }
 #reviewCard03 {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -359,7 +359,7 @@
 
   #reviewCard {
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -377,7 +377,7 @@
   }
   #reviewCard01 {
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -395,7 +395,7 @@
   }
   #reviewCard02 {
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -413,7 +413,7 @@
   }
   #reviewCard03 {
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
